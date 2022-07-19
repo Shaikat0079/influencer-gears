@@ -163,6 +163,13 @@ footer>.footer-section>h1,footer>.footer-section>p{
 footer>.footer-section{
     padding: 50px 0;
 }
+.footer-section>.social{
+    font-size: 25px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
 
 @media only screen and (max-width:688px) {
     header{
