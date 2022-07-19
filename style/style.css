@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 body{
-    /* width: 80%; */
     margin: 0 auto;
     font-family: 'Nunito', sans-serif;
     color: #2C3333;
@@ -49,19 +48,6 @@ nav{
     font-size: 52px;
 }
 
-.description img{
-    width: 440px;
-    height: 440px;
-}
-.image-circle{
-    position: relative;
-}
-#secondImg{
-    position: absolute;
-    right: 20px;
-    width: 390px;
-    height: 390px;
-}
 .btn{
     width: 22.5%;
     display: flex;
@@ -80,7 +66,6 @@ nav{
 .company-logo{
     width: 80%;
     display: flex;
-    /* grid-template-columns: repeat(1,1fr); */
     justify-content: space-around;
     margin: 100px auto;
     border-top: 1px solid #E7F6F2;
@@ -181,10 +166,7 @@ footer>.footer-section{
     padding: 50px 0;
 }
 
-@media only screen and (max-width:688px) {
-    body{
-        width: 100%;
-    }
+@media only screen and (max-width:667px) {
     header{
         width: 100%;
     }
@@ -202,8 +184,12 @@ footer>.footer-section{
     nav>.links>ul>li .fa-cart-plus{
         display: inline;
     }
+
     .description{
         flex-direction: column-reverse;
+    }
+    .description img{
+        width: 100%;
     }
     .description-details{
         align-self: flex-start;
@@ -218,7 +204,6 @@ footer>.footer-section{
     .company-logo{
         width: 100%;
         flex-wrap: wrap;
-        /* grid-template-columns: repeat(2,1fr); */
     }
     .collections{
         grid-template-columns: repeat(1,1fr);
