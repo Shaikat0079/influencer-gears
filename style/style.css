@@ -176,13 +176,12 @@ footer>.footer-section{
     nav>.navbar{
         display: block;
     }
-    nav>.links>ul>li{
+    nav>.links{
         display: none;
     }
-    nav>.links>ul>li .fa-cart-plus{
-        display: inline;
+    nav>.links li a{
+        margin: 0 0px;
     }
-
     .description{
         flex-direction: column-reverse;
     }
