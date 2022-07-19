@@ -53,9 +53,12 @@ nav{
     width: 440px;
     height: 440px;
 }
+.image-circle{
+    position: relative;
+}
 #secondImg{
     position: absolute;
-    right: 150px;
+    right: 20px;
     width: 390px;
     height: 390px;
 }
@@ -199,13 +202,6 @@ footer>.footer-section{
     nav>.links>ul>li .fa-cart-plus{
         display: inline;
     }
-   
-
-    #secondImg{
-        position: absolute;
-        left: 2px;
-    }
-
     .description{
         flex-direction: column-reverse;
     }
