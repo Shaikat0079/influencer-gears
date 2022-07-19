@@ -66,15 +66,13 @@ nav{
 .company-logo{
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 100px auto;
     border-top: 1px solid #E7F6F2;
     border-bottom: 1px solid #E7F6F2;
 }
 .company-logo img{
     margin: 40px 60px;
-    width:84px;
-    height:25.28px;
 }
 
 .popular-collection>h4{
@@ -204,9 +202,16 @@ footer>.footer-section{
     .company-logo{
         width: 100%;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .company-logo img{
+        margin: 10px 10px;
     }
     .collections{
         grid-template-columns: repeat(1,1fr);
+    }
+    .popular-collection>h4{
+        margin: 0 auto;
     }
     .collections>.see-more2,.collections>.see-more1{
         display: none;
